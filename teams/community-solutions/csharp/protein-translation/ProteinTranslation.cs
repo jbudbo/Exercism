@@ -1,35 +1,57 @@
 ﻿using System;
 using System.Collections.Generic;
+using ProteinTranslation.Helpers;
 
-public static class ProteinTranslation
+namespace ProteinTranslation
 {
-    private static readonly HashSet<string> stops = new HashSet<string>(new string[]{"UAA","UAG","UGA" });
-
-    public static string[] Proteins(string strand)
+    public static class ProteinTranslation
     {
-        List<int> hashes = new List<int>();
-        ArraySegment<char> source = new ArraySegment<char>(strand.ToCharArray());
-        for(int i = 0, n = source.Count; i < n; i += 3)
+        public static string[] Proteins(string strand)
         {
-            Codon codon = source.Slice(i, 3);
-            hashes.Add(codon);
-        }
-        return null;
-    }
+            List<string> polypeptide = new List<string>();
 
-    public readonly ref struct Codon
-    {
-        private readonly Span<char> nucleotide;
+            foreach(string codon in strand.ToChunks(3))
+            {
+                string protein = Translate(codon);
+                if (protein is null) break;
+                polypeptide.Add(protein);
+            }
 
-        private Codon(Span<char> nucleotide)
-        {
-            this.nucleotide = nucleotide;
+            return polypeptide.ToArray();
         }
 
-        public static implicit operator Codon(ArraySegment<char> seg) 
-            => new Codon(seg);
-
-        public static implicit operator int(Codon c)
-            => c.nucleotide[0] << 16 | c.nucleotide[1] << 8 | c.nucleotide[2];
+        private static string Translate(string codon)
+        {
+            switch (codon)
+            {
+                case "AUG":
+                    return "Methionine";
+                case "UUU":
+                case "UUC":
+                    return "Phenylalanine";
+                case "UUA":
+                case "UUG":
+                    return "Leucine";
+                case "UCU":
+                case "UCC":
+                case "UCA":
+                case "UCG":
+                    return "Serine";
+                case "UAU":
+                case "UAC":
+                    return "Tyrosine";
+                case "UGU":
+                case "UGC":
+                    return "Cysteine";
+                case "UGG":
+                    return "Tryptophan";
+                case "UAA":
+                case "UAG":
+                case "UGA":
+                    return null;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
     }
 }
