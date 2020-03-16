@@ -1,0 +1,1 @@
+docker run --rm -dt --name mercsharp -v ${PWD}:/workspaces/Exercism exercism:dotnet3.1-alpine
