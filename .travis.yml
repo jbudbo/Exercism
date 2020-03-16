@@ -1,13 +1,3 @@
 language: csharp
-mono: none
-dotnet: 2.1.501
-jobs:
-  include:
-    - stage: "Test"
-      script:
-        - cd csharp
-        - dotnet test
-    - stage: "Build Release"
-      script:
-        - cd csharp
-        - dotnet build -c Release
+mono: latest
+solution: csharp/csharp.sln
