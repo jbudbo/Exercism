@@ -6,7 +6,7 @@ dotnet: 2.1
 #script: msbuild /p:Configuration=Release csharp/csharp.sln
 
 install:
-  - dotnet restore
+  - dotnet restore csharp/csharp.sln
 
 script:
   - dotnet build -c Release csharp/csharp.sln
