@@ -8,7 +8,7 @@ public static class Darts
         const int middleRadius = 5;
         const int innerRadius = 1;
 
-        var radius = Math.Sqrt(x * x + y * y);
+        var radius = Math.Sqrt((x * x) + (y * y));
 
         if (radius > outerRadius) return 0;
 

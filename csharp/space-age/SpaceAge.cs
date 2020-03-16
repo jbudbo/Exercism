@@ -21,7 +21,6 @@ public class SpaceAge
     public double OnVenus()
     {
         return OnEarth() / 0.61519726D;
-
     }
 
     public double OnMars()

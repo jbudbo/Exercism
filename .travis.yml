@@ -1,4 +1,4 @@
 language: csharp
 mono: latest
 solution: csharp/csharp.sln
-script: msbuild /p:Configuration=Release /Unsafe csharp/csharp.sln 
+script: msbuild /p:Configuration=Release /Unsafe csharp/csharp.sln

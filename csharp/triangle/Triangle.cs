@@ -56,5 +56,3 @@ public static class Triangle
     public static bool IsDegenerate(params double[] sides)
         => sides[0] + sides[1] == sides[2];
 }
-
-public class TriangleException : Exception { }

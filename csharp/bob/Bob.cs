@@ -55,6 +55,5 @@ public static class Bob
         internal States Interpret(string statement)
             => silence(statement) ? States.Silent
                 : (States)(questioning(statement).ToByte() << 1 | (intelligable(statement) & yelling(statement)).ToByte());
-        
     }    
 }

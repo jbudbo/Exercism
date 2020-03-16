@@ -38,7 +38,7 @@ public static class LargestSeriesProduct
     {
         T[] srcArr = source.ToArray();
 
-        for (int s = 0, n = srcArr.Length; n - s >= span;s++)
+        for (int s = 0, n = srcArr.Length; n - s >= span; s++)
             yield return srcArr.Skip(s).Take(span);
     }
 }

@@ -37,7 +37,6 @@ public class Robot
             do
             {
                 candidate = GenerateNew().ToArray();
-
             } while (names.Contains(candidate));
 
             names.Add(candidate);
