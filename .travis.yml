@@ -1,4 +1,13 @@
 language: csharp
-mono: latest
-solution: csharp/csharp.sln
-script: msbuild /p:Configuration=Release csharp/csharp.sln
+dist: trusty
+mono: none
+dotnet: 2.1
+#solution: csharp/csharp.sln
+#script: msbuild /p:Configuration=Release csharp/csharp.sln
+
+install:
+  - dotnet restore
+
+script:
+  - dotnet build -c Release csharp/csharp.sln
+  - dotnet test --no-build csharp/csharp.sln
