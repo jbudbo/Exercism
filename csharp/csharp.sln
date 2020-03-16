@@ -1,45 +1,47 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bob", "bob\Bob.csproj", "{17918C1C-FE06-44E6-8DB4-7EC2E1B2E2FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bob", "bob\Bob.csproj", "{17918C1C-FE06-44E6-8DB4-7EC2E1B2E2FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darts", "darts\Darts.csproj", "{147FABA0-696F-42C8-A525-8C736599CC96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darts", "darts\Darts.csproj", "{147FABA0-696F-42C8-A525-8C736599CC96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceOfSquares", "difference-of-squares\DifferenceOfSquares.csproj", "{AD070E69-8E16-43E1-AAC4-F09038AAFBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DifferenceOfSquares", "difference-of-squares\DifferenceOfSquares.csproj", "{AD070E69-8E16-43E1-AAC4-F09038AAFBDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gigasecond", "gigasecond\Gigasecond.csproj", "{B2F65FB8-E590-45A0-9641-09E2637BCABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gigasecond", "gigasecond\Gigasecond.csproj", "{B2F65FB8-E590-45A0-9641-09E2637BCABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains", "grains\Grains.csproj", "{D041FC0C-5FE1-42F1-8E98-89D51E9ACF00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains", "grains\Grains.csproj", "{D041FC0C-5FE1-42F1-8E98-89D51E9ACF00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming", "hamming\Hamming.csproj", "{8778991F-652B-49EE-9A9A-9A92C349F8FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hamming", "hamming\Hamming.csproj", "{8778991F-652B-49EE-9A9A-9A92C349F8FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "hello-world\HelloWorld.csproj", "{84EF29CB-363C-44D2-A153-828F8A61C931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "hello-world\HelloWorld.csproj", "{84EF29CB-363C-44D2-A153-828F8A61C931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestSeriesProduct", "largest-series-product\LargestSeriesProduct.csproj", "{38EDD2A2-FE37-4781-8A5D-3BACE889740C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargestSeriesProduct", "largest-series-product\LargestSeriesProduct.csproj", "{38EDD2A2-FE37-4781-8A5D-3BACE889740C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap", "leap\Leap.csproj", "{702E5238-48B2-41B1-8DF6-10986B03A7B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leap", "leap\Leap.csproj", "{702E5238-48B2-41B1-8DF6-10986B03A7B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangram", "pangram\Pangram.csproj", "{EC24F9D7-5830-4104-9BB9-FA8430213E3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangram", "pangram\Pangram.csproj", "{EC24F9D7-5830-4104-9BB9-FA8430213E3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectNumbers", "perfect-numbers\PerfectNumbers.csproj", "{51BC77CB-9D4C-4C3D-8807-1E5483F1DB8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfectNumbers", "perfect-numbers\PerfectNumbers.csproj", "{51BC77CB-9D4C-4C3D-8807-1E5483F1DB8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTriplet", "pythagorean-triplet\PythagoreanTriplet.csproj", "{616CA6C8-F773-4B6E-B809-CE72CFD284A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PythagoreanTriplet", "pythagorean-triplet\PythagoreanTriplet.csproj", "{616CA6C8-F773-4B6E-B809-CE72CFD284A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RationalNumbers", "rational-numbers\RationalNumbers.csproj", "{4D6B274D-BBCF-4B49-AD27-48C39773B2BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RationalNumbers", "rational-numbers\RationalNumbers.csproj", "{4D6B274D-BBCF-4B49-AD27-48C39773B2BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "reverse-string\ReverseString.csproj", "{12DADF4D-44B1-4661-B646-B8B0F2317B00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "reverse-string\ReverseString.csproj", "{12DADF4D-44B1-4661-B646-B8B0F2317B00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RnaTranscription", "rna-transcription\RnaTranscription.csproj", "{D10C9AC1-3A27-47BE-9E08-952441E9E5A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RnaTranscription", "rna-transcription\RnaTranscription.csproj", "{D10C9AC1-3A27-47BE-9E08-952441E9E5A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotName", "robot-name\RobotName.csproj", "{6CA25A4D-9CA5-403C-8FBA-C1313DEE29A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotName", "robot-name\RobotName.csproj", "{6CA25A4D-9CA5-403C-8FBA-C1313DEE29A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotationalCipher", "rotational-cipher\RotationalCipher.csproj", "{80676D75-52F6-4D96-9C02-F352FD997E17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotationalCipher", "rotational-cipher\RotationalCipher.csproj", "{80676D75-52F6-4D96-9C02-F352FD997E17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceAge", "space-age\SpaceAge.csproj", "{77AED71D-1535-4E6A-A672-0D69C3789BDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceAge", "space-age\SpaceAge.csproj", "{77AED71D-1535-4E6A-A672-0D69C3789BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "triangle\Triangle.csproj", "{2F76290D-9A90-471A-8B09-D90367AC0F18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triangle", "triangle\Triangle.csproj", "{2F76290D-9A90-471A-8B09-D90367AC0F18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sieve", "sieve\Sieve.csproj", "{B107AE98-5750-416F-90F8-D7B12654D8A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,9 +51,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{17918C1C-FE06-44E6-8DB4-7EC2E1B2E2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -282,5 +281,23 @@ Global
 		{2F76290D-9A90-471A-8B09-D90367AC0F18}.Release|x64.Build.0 = Release|Any CPU
 		{2F76290D-9A90-471A-8B09-D90367AC0F18}.Release|x86.ActiveCfg = Release|Any CPU
 		{2F76290D-9A90-471A-8B09-D90367AC0F18}.Release|x86.Build.0 = Release|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Debug|x64.Build.0 = Debug|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Debug|x86.Build.0 = Debug|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Release|x64.ActiveCfg = Release|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Release|x64.Build.0 = Release|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Release|x86.ActiveCfg = Release|Any CPU
+		{B107AE98-5750-416F-90F8-D7B12654D8A4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CFE422C-4F7D-4AF7-B149-34799BDF3D5D}
 	EndGlobalSection
 EndGlobal
