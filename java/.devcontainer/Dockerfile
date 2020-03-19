@@ -24,8 +24,10 @@ RUN groupadd --gid $USER_GID $USERNAME \
 RUN yum install -y git openssh-clients less net-tools which curl procps unzip
 
 # Add Exercism
-ENV EXERCISM_VERSION "3.0.13"
-ENV EXERCISM_DOWNLOAD_SHA256=8abcd78d9fbf9c580381e86e611f50a0d5efd88aed06100cd1e4d12ee41440d2
+ARG exercism-ver "3.0.13"
+ARG exercism-sha 8abcd78d9fbf9c580381e86e611f50a0d5efd88aed06100cd1e4d12ee41440d2
+ENV EXERCISM_VERSION ${exercism-ver}
+ENV EXERCISM_DOWNLOAD_SHA256 ${exercism-sh}
 COPY user.json /root/.config/exercism/user.json
 RUN mkdir -p /usr/share/Exercism \
     && curl -fsSL -o /tmp/exercism.tar.gz "https://github.com/exercism/cli/releases/download/v${EXERCISM_VERSION}/exercism-${EXERCISM_VERSION}-linux-x86_64.tar.gz" \
