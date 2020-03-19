@@ -1,0 +1,8 @@
+.vscode
+.exercism
+.gradle
+.settings
+.project
+build
+bin
+user.json
