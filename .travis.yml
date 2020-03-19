@@ -10,4 +10,4 @@ install:
 
 script:
   - dotnet build -c Release csharp/csharp.sln
-  - dotnet test --no-build csharp/csharp.sln
+  - dotnet test csharp/csharp.sln
